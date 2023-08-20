@@ -1,0 +1,20 @@
+
+state = {
+	id=1998
+	name="STATE_1998"
+  manpower = 199251
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = URS
+			buildings = {
+			}
+			add_core_of = URS
+		}
+	}
+
+  provinces = {
+		715 991 2049 5164 15248 15273 15323 
+  }
+}

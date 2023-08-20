@@ -1,0 +1,28 @@
+
+state={
+	id=1937
+	name="STATE_1937" 
+	manpower = 5243000
+	resources = {
+		aluminium = 25
+	}
+	
+	state_category = large_city
+	history={
+		1936.1.1 = {
+			owner = NUN
+			victory_points = { 15119 10 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 1
+			}
+			add_core_of = NUN
+		}
+	}
+
+	provinces={
+		4120 9165 10241 15022 15086 15096 15119 15145
+	}
+	local_supplies=0.0 
+}

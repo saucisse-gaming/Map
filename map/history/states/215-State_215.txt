@@ -1,0 +1,23 @@
+
+state = {
+	id=215
+	name="STATE_215"
+  manpower = 17501
+  
+  state_category = pastoral
+  history = {
+	1936.1.1 = {
+		owner = CHB
+		buildings = {
+			15388 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CHB
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		15388 15442 
+  }
+}

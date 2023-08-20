@@ -1,0 +1,19 @@
+
+state = {
+	id=1973
+	name="STATE_1973"
+  manpower = 362000
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = MAQ
+			buildings = {
+			}
+			add_core_of = MAQ
+		}
+	}
+  provinces = {
+		3374 3389 8540 9672 15108 15164 15198 15247 15254 15289 15315 15341 
+  }
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=2031
+	name="STATE_2031"
+
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = ANT
+			buildings = {
+				infrastructure = 2
+				arms_factory = 1
+			}
+			add_core_of = ANT
+		}
+	}
+
+
+	provinces={
+		3167 3226 4060 4813 7525 9800 15406 15420 15530 
+	}
+	manpower=1123001
+}

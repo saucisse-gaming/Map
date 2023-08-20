@@ -1,0 +1,29 @@
+
+state={
+	id=2125
+	name="STATE_2125"
+
+	history={
+		1936.1.1 = {
+			owner = BIT
+			victory_points = {
+				6734 1 
+			}
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+	
+			}
+			add_core_of = BIT
+		}
+
+	}
+
+	provinces={
+		5322 6734 6839 15704 15751 15777 15819 15833 15863 
+	}
+	manpower=5562300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

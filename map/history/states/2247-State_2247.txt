@@ -1,0 +1,22 @@
+
+state={
+	id=2247
+	name="STATE_2247" # Corsica
+	manpower = 129000
+	
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = CHE
+			buildings = {
+				infrastructure = 0
+			}
+			add_core_of = CHE
+		}
+	}
+
+	provinces={
+		2164 7042 16311 16354 
+	}
+	local_supplies=0.0 
+}

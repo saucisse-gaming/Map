@@ -1,0 +1,20 @@
+
+state={
+	id=1699
+	name="STATE_1699"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		2386 4234 5676 6319 6347 7088 7722 14156 14234 14295 
+	}
+	manpower=1171001
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

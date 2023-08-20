@@ -1,0 +1,24 @@
+
+state={
+	id=2041
+	name="STATE_2041"
+
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = ANT
+			victory_points = { 6514 10 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+			add_core_of = ANT
+		}
+	}
+
+
+	provinces={
+		305 6514 7586 7815 15517 15585 15640 15647 
+	}
+	manpower=2644501
+}

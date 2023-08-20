@@ -1,0 +1,22 @@
+
+state={
+	id=1826
+	name="STATE_1826" # Corsica
+	manpower = 1029000
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			victory_points = { 14718 5 }
+			owner = YPA
+			buildings = {
+			}
+			add_core_of = YPA
+		}
+	}
+
+	provinces={
+		4480 6381 8823 14639 14686 14693 14701 14718 14727 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+
+state = {
+	id=1897
+	name="STATE_1897"
+  manpower = 3834501
+  
+	state_category = large_town
+	history={
+		1936.1.1 = {
+			owner = BAG
+			victory_points = { 14978 10 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+				14978 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = BAG
+		}
+	}
+	provinces = {
+		6843 9383 14934 14943 14971 14978 14989 
+	}
+}

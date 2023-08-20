@@ -1,0 +1,21 @@
+
+state = {
+	id=2017
+	name="STATE_2017"
+  manpower = 2114501
+  
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = KAK
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+			add_core_of = KAK
+		}
+	}
+  provinces = {
+		3865 9257 15350 15408 15409 
+  }
+}

@@ -1,0 +1,28 @@
+
+state = {
+	id=1898
+	name="STATE_1898"
+  manpower = 748501
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = DOG
+			victory_points = { 5836 5 }
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				5836 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = DOG
+		}
+	}
+  provinces = {
+		5836 6685 14891 14928 
+  }
+  resources = {
+	aluminium = 14
+  }
+}

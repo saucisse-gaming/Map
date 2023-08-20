@@ -1,0 +1,23 @@
+
+state = {
+	id=2055
+	name="STATE_2055"
+  manpower = 1485751
+  
+  state_category = pastoral
+  history = {
+	1936.1.1 = {
+		owner = KEK
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = KEK
+	}
+  }
+  provinces = {
+		3051 4379 4964 5946 8446 15526 15564 15584 15661 
+  }
+  resources = {
+	steel = 5
+	}
+}

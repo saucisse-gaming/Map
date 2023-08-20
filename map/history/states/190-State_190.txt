@@ -1,0 +1,30 @@
+
+state = {
+	id=190
+	name="STATE_190"
+  manpower = 4554751
+  
+  state_category = metropolis
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		victory_points = { 6921 25 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 2
+			dockyard = 3
+			6921 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		5737 6921 10187 15143 
+  }
+  resources = {
+	steel = 20
+	}
+}

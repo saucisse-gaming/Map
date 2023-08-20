@@ -1,0 +1,28 @@
+
+state={
+	id=1987
+	name="STATE_1987" # Corsica
+	manpower = 2365000
+	resources = {
+		steel = 15
+	}
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = REF
+			victory_points = { 4381 5 }
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+				arms_factory = 1
+			}
+			add_core_of = REF
+		}
+	}
+
+	provinces={
+		4381 7031 7231 15242 
+	}
+	local_supplies=0.0 
+}

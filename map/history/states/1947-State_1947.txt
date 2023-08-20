@@ -1,0 +1,22 @@
+
+state = {
+	id=1947
+	name="STATE_1947"
+  manpower = 1298251
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = KAK
+			victory_points = { 15140 5 }
+			buildings = {
+				infrastructure = 2
+				arms_factory = 1
+			}
+			add_core_of = KAK
+		}
+	}
+  provinces = {
+		5670 8861 9734 15139 15140 
+  }
+}

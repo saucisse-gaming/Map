@@ -1,0 +1,15 @@
+
+state = {
+	id=2429
+	name="STATE_2429"
+  manpower = 7906751
+  
+  state_category = wasteland
+  history = {
+    buildings = {
+    }
+  }
+  provinces = {
+		17029 17034 17067 17071 
+  }
+}

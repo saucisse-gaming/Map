@@ -1,0 +1,22 @@
+
+state = {
+	id=181
+	name="STATE_181"
+  manpower = 26751
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = BAG
+			buildings = {
+				19378 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = BAG
+		}
+	}
+  provinces = {
+		19378 
+  }
+}

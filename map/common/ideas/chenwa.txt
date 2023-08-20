@@ -1,0 +1,144 @@
+ideas = {
+	country = {
+		che_cour_khan = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_yug_all_yugoslavian_regiments
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+			}
+		}		
+		che_rebelion1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_chi_war_of_resistance3
+			
+			modifier = {
+				consumer_goods_factor = 0.5
+				army_attack_factor = -0.2
+				army_defence_factor = -0.2
+			}
+		}		
+		che_rebelion2 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_chi_war_of_resistance2
+			
+			modifier = {
+				consumer_goods_factor = 0.4
+				army_attack_factor = -0.15
+				army_defence_factor = -0.15
+			}
+		}		
+		che_rebelion3 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_chi_war_of_resistance
+			
+			modifier = {
+				consumer_goods_factor = 0.3
+				army_attack_factor = -0.1
+				army_defence_factor = -0.1
+			}
+		}		
+		che_rebelion4 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_chi_war_of_resistance
+			
+			modifier = {
+				consumer_goods_factor = 0.2
+				army_attack_factor = -0.05
+				army_defence_factor = -0.05
+			}
+		}		
+		che_cabinet1 = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_eng_the_kings_party
+			
+			modifier = {
+				political_power_factor = 0.15
+				stability_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}		
+		che_colonial = {
+
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = neutrality
+			}
+
+			removal_cost = -1
+
+			picture = idea_eng_the_kings_party
+			
+			modifier = {
+				local_resources_factor = 0.1
+				attrition = -0.1
+				required_garrison_factor = -0.05
+			}
+		}
+	}
+}

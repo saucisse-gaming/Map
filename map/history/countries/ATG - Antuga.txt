@@ -1,0 +1,64 @@
+﻿capital = 2173
+
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.75
+set_oob = "ATG_1936"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	fascism = 5
+	communism = 5
+	neutrality = 90
+}
+
+add_ideas = {
+}
+set_technology = {
+	infantry_weapons = 1
+}
+
+
+create_country_leader = {
+	name = "Jean-pierre Esteva"
+	desc = "JP"
+	picture = "Portrait_France_Jean-Pierre_Esteva.dds"
+	expire = "1965.1.1"
+	ideology = despotism
+	traits = {
+	}
+}
+
+
+#create_country_leader = {
+#	name = "Otto Wels"
+#	desc = "POLITICS_OTTO_WELS_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1939.1.16"
+#	ideology = socialism
+#	traits = {
+#		exiled
+#		union_man
+#	}
+#}
+#
+#create_country_leader = {
+#	name = "Ernst Thälmann"
+#	desc = "POLITICS_ERNST_THALMANN_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1956.1.1"
+#	ideology = stalinism
+#	traits = {
+#		assassination_survivor
+#		stalins_puppet
+#		political_prisoner
+#	}
+#}
+
+

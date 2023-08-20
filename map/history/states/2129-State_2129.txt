@@ -1,0 +1,25 @@
+
+state={
+	id=2129
+	name="STATE_2129" # Corsica
+	manpower = 3251000
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = BIT
+			victory_points = { 5925 1 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			}
+			add_core_of = BIT
+		}
+	}
+
+	provinces={
+		4867 5925 6975 15768 15836 15862 15910 15955 
+	}
+	local_supplies=0.0 
+}

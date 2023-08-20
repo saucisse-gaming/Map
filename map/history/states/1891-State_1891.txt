@@ -1,0 +1,23 @@
+
+state={
+	id=1891
+	name="STATE_1891" # Corsica
+	manpower = 729000
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = ALF
+			victory_points = { 14791 2 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = ALF
+		}
+	}
+
+	provinces={
+		43 4028 4137 6526 7372 9259 14791 14834 
+	}
+	local_supplies=0.0 
+}

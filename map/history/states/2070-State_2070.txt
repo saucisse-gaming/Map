@@ -1,0 +1,17 @@
+
+state = {
+	id=2070
+	name="STATE_2070"
+	manpower = 125000
+	
+	state_category = pastoral
+	history = {
+		1936.1.1 = {
+			owner = SUS
+			add_core_of = SUS
+		}
+	}
+	provinces = {
+			4955 7072 8600 15587 15610 15654 15664 
+	}
+}

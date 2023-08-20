@@ -1,0 +1,19 @@
+
+state = {
+	id=1977
+	name="STATE_1977"
+  manpower = 582151
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = GAG
+			buildings = {
+			}
+			add_core_of = GAG
+		}
+	}
+  provinces = {
+		4438 5519 6520 7550 15168 15174 15211 
+  }
+}

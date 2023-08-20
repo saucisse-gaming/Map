@@ -1,0 +1,23 @@
+
+state = {
+	id=202
+	name="STATE_202"
+  manpower = 282001
+  
+  state_category = rural
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		buildings = {
+			infrastructure = 1
+			15232 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		15232 
+  }
+}

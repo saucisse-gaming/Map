@@ -1,0 +1,64 @@
+﻿capital = 2217
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.75
+set_oob = "VNE_1936"
+set_technology = {
+	infantry_weapons = 1
+}
+set_politics = {
+	ruling_party = democratic
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	democratic = 80
+	fascism = 10
+	communism = 10
+}
+
+add_ideas = {
+}
+
+
+
+create_country_leader = {
+	name = "Hugus Porter"
+	desc = "JP"
+	picture = "Portrait_Britain_Generic_land_3.dds"
+	expire = "1965.1.1"
+	ideology = Socialism
+	traits = {
+	}
+}
+
+
+#create_country_leader = {
+#	name = "Otto Wels"
+#	desc = "POLITICS_OTTO_WELS_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1939.1.16"
+#	ideology = socialism
+#	traits = {
+#		exiled
+#		union_man
+#	}
+#}
+#
+#create_country_leader = {
+#	name = "Ernst Thälmann"
+#	desc = "POLITICS_ERNST_THALMANN_DESC"
+#	picture = "Portrait_Germany_Adolf_Hitler.dds"
+#	expire = "1956.1.1"
+#	ideology = stalinism
+#	traits = {
+#		assassination_survivor
+#		stalins_puppet
+#		political_prisoner
+#	}
+#}
+
+

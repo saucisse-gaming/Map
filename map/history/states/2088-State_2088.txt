@@ -1,0 +1,24 @@
+
+state = {
+	id=2088
+	name="STATE_2088"
+  manpower = 43356
+	resources = {
+		chromium = 5
+		steel = 6
+	}
+  
+  state_category = pastoral
+  history = {
+		1936.1.1 = {
+			owner = YTO
+			buildings = {
+
+			}
+			add_core_of = YTO
+		}
+  }
+  provinces = {
+		5751 7189 7813 10116 15687 15800 
+  }
+}

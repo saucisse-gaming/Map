@@ -1,0 +1,21 @@
+
+state={
+	id=2109
+	name="STATE_2109"
+
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = RAV
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+			add_core_of = RAV
+		}
+	}
+	provinces={
+		2480 5392 5890 8406 15805 15851 15906 15947 15978 
+	}
+	manpower=4657251
+}

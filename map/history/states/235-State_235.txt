@@ -1,0 +1,24 @@
+
+state = {
+	id=235
+	name="STATE_235"
+  manpower = 104001
+  
+  state_category = rural
+  history = {
+	1936.1.1 = {
+		owner = CHB
+		buildings = {
+			industrial_complex = 1
+			15634 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CHB
+		add_claim_by = YAP
+	}
+  }
+  provinces = {
+		15634 
+  }
+}

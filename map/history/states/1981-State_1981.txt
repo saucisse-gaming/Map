@@ -1,0 +1,22 @@
+
+state={
+	id=1981
+	name="STATE_1981" # Corsica
+	manpower = 65000
+	
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = REF
+			buildings = {
+				infrastructure = 2
+			}
+			add_core_of = REF
+		}
+	}
+
+	provinces={
+		812 7726 8980 9176 15184 15234 15267 
+	}
+	local_supplies=0.0 
+}

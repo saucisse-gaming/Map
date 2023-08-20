@@ -1,0 +1,20 @@
+
+state = {
+	id=2197
+	name="STATE_2197"
+  manpower = 538251
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = CHB
+			buildings = {
+				infrastructure = 2
+			}
+			add_core_of = CHB
+		}
+	}
+  provinces = {
+		5817 9518 
+  }
+}

@@ -1,0 +1,20 @@
+
+state = {
+	id=2007
+	name="STATE_2007"
+  manpower = 2115501
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = KAK
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = KAK
+		}
+	}
+  provinces = {
+		109 1866 3895 4652 15268 15314 15379 15392 
+  }
+}

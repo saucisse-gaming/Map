@@ -1,0 +1,25 @@
+
+state={
+	id=315
+	name="STATE_315" # Corsica
+	manpower = 18752
+	
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = VNE
+			buildings = {
+				infrastructure = 1
+				19420 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = VNE
+		}
+	}
+
+	provinces={
+		19420 
+	}
+	local_supplies=0.0 
+}

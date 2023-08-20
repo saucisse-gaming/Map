@@ -1,0 +1,20 @@
+
+state={
+	id=1877
+	name="STATE_1877"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		534 650 3814 7617 14861 14888 14969 
+	}
+	manpower=2708751
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

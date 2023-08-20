@@ -1,0 +1,29 @@
+
+state={
+	id=2211
+	name="STATE_2211" # Corsica
+	manpower = 15229000
+	resources = {
+		steel = 100
+		aluminium = 10
+	}
+	
+	state_category = megalopolis
+	history={
+		1936.1.1 = {
+			owner = FIR
+			victory_points = { 6294 60 }
+			buildings = {
+				infrastructure = 5
+				industrial_complex = 8
+				arms_factory = 3
+			}
+			add_core_of = FIR
+		}
+	}
+
+	provinces={
+		303 4335 6294 6357 16199 16207 16241 16256 16284 
+	}
+	local_supplies=0.0 
+}

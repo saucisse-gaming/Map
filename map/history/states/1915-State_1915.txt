@@ -1,0 +1,23 @@
+
+state = {
+	id=1915
+	name="STATE_1915"
+  manpower = 838501
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = BAG
+			buildings = {
+				infrastructure = 1
+				15012 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = BAG
+		}
+	}
+  provinces = {
+		5411 9241 15012 15070 
+  }
+}

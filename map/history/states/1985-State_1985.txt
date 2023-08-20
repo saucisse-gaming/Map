@@ -1,0 +1,24 @@
+
+state={
+	id=1985
+	name="STATE_1985" # Corsica
+	manpower = 5282900
+	
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = NUN
+			victory_points = { 99 5 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 4
+			}
+			add_core_of = NUN
+		}
+	}
+
+	provinces={
+		99 1050 6958 7982 7997 9436 15172 15386 
+	}
+	local_supplies=0.0 
+}

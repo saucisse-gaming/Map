@@ -1,0 +1,22 @@
+
+state={
+	id=2195
+	name="STATE_2195" # Corsica
+	manpower = 176000
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = NOL
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = NOL
+		}
+	}
+
+	provinces={
+		1289 3862 4909 7051 8919 16083 16117 16155 16182 
+	}
+	local_supplies=0.0 
+}

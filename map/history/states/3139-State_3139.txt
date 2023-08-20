@@ -1,0 +1,15 @@
+
+state = {
+	id=3139
+	name="STATE_3139"
+  manpower = 6261501
+  
+  state_category = metropolis
+  history = {
+    buildings = {
+    }
+  }
+  provinces = {
+		3078 3127 3760 7263 8056 8286 19258 19260 19266 19270 
+  }
+}

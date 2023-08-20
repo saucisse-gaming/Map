@@ -1,0 +1,19 @@
+
+state = {
+	id=1894
+	name="STATE_1894"
+  manpower = 463251
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = GAG
+			buildings = {
+			}
+			add_core_of = GAG
+		}
+	}
+  provinces = {
+		10228 14878 14914 14924 14970 15032 
+  }
+}

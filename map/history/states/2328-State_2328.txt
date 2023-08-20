@@ -1,0 +1,23 @@
+
+state={
+	id=2328
+	name="STATE_2328" # Corsica
+	manpower = 1329000
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = CHE
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+			add_core_of = CHE
+		}
+	}
+
+	provinces={
+		1000 1879 3684 4577 7843 16573 16612 16685 
+	}
+	local_supplies=0.0 
+}

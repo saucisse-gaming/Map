@@ -1,0 +1,27 @@
+﻿capital = 2033
+
+set_research_slots = 1
+set_convoys = 1
+set_stability = 0.3
+set_oob = "SUS_1936"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	neutrality = 100
+}
+
+create_country_leader = {
+	name = "Sal Ope"
+	desc = "han"
+	picture = "Portrait_sal_ope.dds"
+	expire = "1999.1.16"
+	ideology = despotism
+	traits = {
+	}
+}

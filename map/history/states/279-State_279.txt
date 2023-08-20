@@ -1,0 +1,26 @@
+
+state={
+	id=279
+	name="STATE_279" # Corsica
+	manpower = 450000
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = VNE
+			victory_points = { 4325 30 }
+			buildings = {
+				infrastructure = 1
+				10088 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = VNE
+		}
+	}
+
+	provinces={
+		10088 16227 
+	}
+	local_supplies=0.0 
+}

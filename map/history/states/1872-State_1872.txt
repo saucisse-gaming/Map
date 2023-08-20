@@ -1,0 +1,21 @@
+
+state={
+	id=1872
+	name="STATE_1872" # Corsica
+	manpower = 329000
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = ALF
+			buildings = {
+			}
+			add_core_of = ALF
+		}
+	}
+
+	provinces={
+		5441 7010 8602 8978 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,23 @@
+
+state = {
+	id=2114
+	name="STATE_2114"
+  manpower = 1813001
+  
+  state_category = rural
+  history = {
+	1936.1.1 = {
+		owner = ECO
+		buildings = {
+			
+		}
+		add_core_of = ECO
+	}
+  }
+  provinces = {
+		144 6180 8490 9137 15742 15758 15793 
+  }
+  resources = {
+	chromium = 8
+	}
+}

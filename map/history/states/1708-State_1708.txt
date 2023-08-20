@@ -1,0 +1,20 @@
+
+state={
+	id=1708
+	name="STATE_1708"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		2204 4271 4278 4545 7183 9949 14253 14260 
+	}
+	manpower=1820751
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

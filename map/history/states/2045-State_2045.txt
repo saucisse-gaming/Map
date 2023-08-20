@@ -1,0 +1,20 @@
+
+state={
+	id=2045
+	name="STATE_2045"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		6645 9464 9544 15498 15538 15556 15561 
+	}
+	manpower=4708751
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

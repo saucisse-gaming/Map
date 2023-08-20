@@ -1,0 +1,15 @@
+
+state = {
+	id=2716
+	name="STATE_2716"
+  manpower = 5979251
+  
+  state_category = large_city
+  history = {
+    buildings = {
+    }
+  }
+  provinces = {
+		1824 2860 3758 5855 17917 17945 
+  }
+}

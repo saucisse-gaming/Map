@@ -1,0 +1,12 @@
+a faire
+	gaulia ya plein de truc
+	modif technologie navy
+	dominus in patria 
+	NOMMER LES VILLES PD
+	0 0 0 }RGB pays
+	0 0 0 }
+	color = rgb { 5 5 5 }
+nouveauté
+
+mémo
+	info simpa la date dans les states c'est strictement après la date de départ que cela s'applique donc départ an 2 doit être le par défaut  

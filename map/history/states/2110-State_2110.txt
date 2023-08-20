@@ -1,0 +1,31 @@
+
+state={
+	id=2110
+	name="STATE_2110" # Corsica
+	manpower = 2829000
+	resources = {
+		tungsten = 50
+	}
+	
+	state_category = large_city
+	history={
+		1936.1.1 = {
+			owner = KEK
+			victory_points = { 10233 20 }
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 3
+				arms_factory = 1
+				10233 = {
+					naval_base = 2
+				}
+			}
+			add_core_of = KEK
+		}
+	}
+
+	provinces={
+		57 3411 7203 8374 10233 15697 15707 15715 15737 15825 
+	}
+	local_supplies=0.0 
+}

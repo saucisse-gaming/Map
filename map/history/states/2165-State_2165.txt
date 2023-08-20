@@ -1,0 +1,23 @@
+
+state={
+	id=2165
+	name="STATE_2165" # Corsica
+	manpower = 1429000
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = ATG
+			victory_points = { 3641 1 }
+			buildings = {
+				infrastructure = 2
+			}
+			add_core_of = ATG
+		}
+	}
+
+	provinces={
+		2096 3641 8482 15980 16023 16054 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,26 @@
+##bookmarks = {
+#	#bookmark = {
+#		name = "Issou_name"
+#		desc = "Issou_desc"
+#		date = 2.1.1.12
+#		picture = "GFX_sus_date2"
+#		default_country = "CHB"
+#		default = yes
+#		
+#		"CHB"={
+#			history = "CHB_issou_DESC"
+#			ideology = neutrality
+#			ideas = {
+#				
+#			}
+#			focuses = {
+#				
+#			}
+#		}		
+#		
+#		"---"={
+#			history = "OTHER_GATHERING_STORM_DESC"
+#		}
+#		
+#	}
+#}

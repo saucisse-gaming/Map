@@ -1,0 +1,26 @@
+
+state={
+	id=296
+	name="STATE_296" # Corsica
+	manpower = 26000
+	
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = FIR
+			victory_points = { 6388 2 }
+			buildings = {
+				infrastructure = 1
+				6388 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = FIR
+		}
+	}
+
+	provinces={
+		6388 16510 
+	}
+	local_supplies=0.0 
+}

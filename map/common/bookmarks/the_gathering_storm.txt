@@ -1,0 +1,68 @@
+bookmarks = {
+	bookmark = {
+		name = "GATHERING_STORM_NAME"
+		desc = "GATHERING_STORM_DESC"
+		date = 1936.1.1.12
+		picture = "GFX_select_date_1936"
+		default_country = "FIR"
+		default = yes
+		
+		"FIR"={
+			history = "FIR_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				fir_industrie_sus1
+			}
+			focuses = {
+				FIR_une_nouvelle_re
+				FIR_la_lgion
+				FIR_le_monstre_industriel
+			}
+		}		
+		"YAP"={
+			history = "YAP_GATHERING_STORM_DESC"
+			ideology = fascism
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+		"CHE"={
+			history = "CHE_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+				che_rebelion1
+			}
+			focuses = {
+			}
+		}		
+		"NOL"={
+			history = "NOL_GATHERING_STORM_DESC"
+			ideology = democratic
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+		"ECO"={
+			history = "ECO_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}		
+		"BAG"={
+			history = "BAG_GATHERING_STORM_DESC"
+			ideology = neutrality
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"---"={
+			history = "OTHER_GATHERING_STORM_DESC"
+		}
+		
+	}
+}

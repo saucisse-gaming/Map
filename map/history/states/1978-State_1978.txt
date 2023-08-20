@@ -1,0 +1,19 @@
+
+state = {
+	id=1978
+	name="STATE_1978"
+  manpower = 368521
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = COC
+			buildings = {
+			}
+			add_core_of = COC
+		}
+	}
+  provinces = {
+		966 4045 5158 7755 15270 
+  }
+}

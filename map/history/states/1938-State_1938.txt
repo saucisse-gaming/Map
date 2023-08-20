@@ -1,0 +1,19 @@
+
+state = {
+	id=1938
+	name="STATE_1938"
+  manpower = 345751
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = BAG
+			buildings = {
+			}
+			add_core_of = BAG
+		}
+	}
+  provinces = {
+		8999 9418 
+  }
+}

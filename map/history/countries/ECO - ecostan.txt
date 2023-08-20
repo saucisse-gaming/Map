@@ -1,0 +1,30 @@
+﻿capital = 2127
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.55
+set_oob = "ECO_1936"
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 24
+	elections_allowed = yes
+
+}
+set_popularities = {
+	neutrality = 80
+	democratic = 5
+	fascism = 15
+}
+
+create_country_leader = {
+	name = "Eco Nome"
+	desc = "han"
+	picture = "GFX_Portrait_Eco_Nome"
+	expire = "1999.1.16"
+	ideology = despotism
+	traits = {
+	}
+}
+

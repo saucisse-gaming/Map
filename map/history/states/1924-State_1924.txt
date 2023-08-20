@@ -1,0 +1,23 @@
+
+state = {
+	id=1924
+	name="STATE_1924"
+  manpower = 585751
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = BAG
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = BAG
+		}
+	}
+  provinces = {
+		2775 6682 9251 14963 15006 15058 15128 
+  }
+  resources = {
+	tungsten = 8
+  }
+}

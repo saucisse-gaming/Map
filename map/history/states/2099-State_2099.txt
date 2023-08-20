@@ -1,0 +1,29 @@
+
+state={
+	id=2099
+	name="STATE_1" # Corsica
+	manpower = 12829000
+	resources = {
+		aluminium = 50
+		steel = 15
+	}
+	
+	state_category = megalopolis
+	history={
+		1936.1.1 = {
+			owner = BIT
+			victory_points = { 1 50 }
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 6
+				arms_factory = 2
+			}
+			add_core_of = BIT
+		}
+	}
+
+	provinces={
+		1 1962 7110 15740 15779 
+	}
+	local_supplies=0.0 
+}

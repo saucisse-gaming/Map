@@ -1,0 +1,22 @@
+
+state = {
+	id=256
+	name="STATE_256"
+  manpower = 38751
+  
+  state_category = pastoral
+  history = {
+	1936.1.1 = {
+		owner = PAO
+		buildings = {
+			15931 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CHB
+	}
+  }
+  provinces = {
+		15931 
+  }
+}

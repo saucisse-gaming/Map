@@ -1,0 +1,20 @@
+
+state = {
+	id=1888
+	name="STATE_1888"
+  manpower = 1576001
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = DOG
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = DOG
+		}
+	}
+  provinces = {
+		182 2603 3308 4943 8845 9412 14939 
+  }
+}

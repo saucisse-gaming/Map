@@ -1,0 +1,25 @@
+
+state = {
+	id=1961
+	name="STATE_1961"
+  manpower = 2160251
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = COC
+			victory_points = { 18 5 }
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+				18 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = COC
+		}
+	}
+  provinces = {
+		18 280 15206 
+  }
+}

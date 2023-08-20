@@ -1,0 +1,21 @@
+
+state = {
+	id=2033
+	name="STATE_2033"
+  manpower = 703751
+  
+  state_category = town
+  history = {
+	1936.1.1 = {
+		owner = SUS
+		victory_points = { 1469 1 }
+		buildings = {
+			
+		}
+		add_core_of = SUS
+	}
+  }
+  provinces = {
+		1469 5772 6177 15506 
+  }
+}

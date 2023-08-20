@@ -1,0 +1,22 @@
+
+state = {
+	id=207
+	name="STATE_207"
+  manpower = 5001
+  
+  state_category = pastoral
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		buildings = {
+			19387 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		19387 
+  }
+}

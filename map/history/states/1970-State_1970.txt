@@ -1,0 +1,21 @@
+
+state = {
+	id=1970
+	name="STATE_1970"
+  manpower = 568235
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = MAQ
+			victory_points = { 7106 4 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = MAQ
+		}
+	}
+  provinces = {
+		6953 7106 9172 15218 
+  }
+}

@@ -1,0 +1,21 @@
+
+state = {
+	id=1949
+	name="STATE_1949"
+  manpower = 224001
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = URS
+			buildings = {
+			}
+			add_core_of = URS
+			add_claim_by = MAQ
+		}
+	}
+
+  provinces = {
+		2125 3880 9353 15175 15213 
+  }
+}

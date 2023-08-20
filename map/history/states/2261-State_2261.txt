@@ -1,0 +1,27 @@
+
+state={
+	id=2261
+	name="STATE_2261" # Corsica
+	manpower = 1229000
+	resources = {
+		steel = 15
+	}
+	
+	state_category = large_town
+	history={
+		1936.1.1 = {
+			owner = CHE
+			victory_points = { 16335 10 }
+			buildings = {
+				infrastructure = 1
+				industrial_complex = 1
+			}
+			add_core_of = CHE
+		}
+	}
+
+	provinces={
+		8136 16335 16373 16384 
+	}
+	local_supplies=0.0 
+}

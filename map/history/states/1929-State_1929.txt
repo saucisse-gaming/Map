@@ -1,0 +1,29 @@
+
+state={
+	id=1929
+	name="STATE_1929" # Corsica
+	manpower = 5829000
+	resources = {
+		aluminium = 5
+		steel = 15
+	}
+	
+	state_category = large_city
+	history={
+		1936.1.1 = {
+			owner = AGB
+			victory_points = { 10179 15 }
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 4
+				arms_factory = 2
+			}
+			add_core_of = AGB
+		}
+	}
+
+	provinces={
+		2207 5216 5960 7005 10179 10196 
+	}
+	local_supplies=0.0 
+}

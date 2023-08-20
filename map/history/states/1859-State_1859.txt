@@ -1,0 +1,22 @@
+
+state = {
+	id=1859
+	name="STATE_1859"
+  manpower = 101501
+  
+	state_category = pastoral
+	history={
+		1936.1.1 = {
+			owner = DOG
+			buildings = {
+				2853 = {
+					naval_base = 1
+				}
+			}
+			add_core_of = DOG
+		}
+	}
+  provinces = {
+		2853 5420 6964 14758 14792 14841 
+  }
+}

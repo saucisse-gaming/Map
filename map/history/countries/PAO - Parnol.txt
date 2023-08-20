@@ -1,0 +1,29 @@
+﻿capital = 253
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.5
+set_oob = "PAO_1936"
+
+set_politics = {
+	ruling_party = fascism
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	neutrality = 6
+	democratic = 5
+	fascism = 89
+}
+
+create_country_leader = {
+	name = "Pudak Ernol"
+	desc = "han"
+	picture = "Portrait_cou_yax.dds"
+	expire = "1999.1.16"
+	ideology = fascism_ideology
+	traits = {
+	}
+}

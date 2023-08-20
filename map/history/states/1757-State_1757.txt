@@ -1,0 +1,20 @@
+
+state={
+	id=1757
+	name="STATE_1757"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		1986 4868 5986 8376 9270 9539 14438 14545 
+	}
+	manpower=3472751
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

@@ -1,0 +1,5 @@
+From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
+21695;21812;sea;14571;-1;-1;-1;-1;SUEZ_CANAL;Suez
+19433;19434;sea;20131;-1;-1;-1;-1;;Calabria-Sicily
+14971;14978;sea;19710;-1;-1;-1;-1;DANISH_BELTS_STRAIT;
+-1;-1;;-1;-1;-1;-1;-1;-1

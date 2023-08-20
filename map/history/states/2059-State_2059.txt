@@ -1,0 +1,23 @@
+
+state = {
+	id=2059
+	name="STATE_2059"
+  manpower = 2512501
+  
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = KAK
+			victory_points = { 8567 3 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+				arms_factory = 1
+			}
+			add_core_of = KAK
+		}
+	}
+  provinces = {
+		8567 15519 15551 15592 15628 
+  }
+}

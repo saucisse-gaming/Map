@@ -1,0 +1,22 @@
+
+state = {
+	id=2026
+	name="STATE_2026"
+  manpower = 651501
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = URS
+			victory_points = { 15410 1 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = URS
+		}
+	}
+
+  provinces = {
+		9010 9058 15342 15351 15400 15410 15451 15464 
+  }
+}

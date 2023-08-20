@@ -1,0 +1,19 @@
+
+state = {
+	id=1879
+	name="STATE_1879"
+  manpower = 3132251
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = DOG
+			buildings = {
+			}
+			add_core_of = DOG
+		}
+	}
+  provinces = {
+		6127 6810 14881 
+  }
+}

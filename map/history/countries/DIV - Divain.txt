@@ -1,0 +1,31 @@
+﻿capital = 362
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.55
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+set_popularities = {
+	neutrality = 80
+	democratic = 5
+	fascism = 10
+	communism = 5
+}
+
+create_country_leader = {
+	name = "QAtAnhCAeW"
+	desc = "han"
+	picture = "portrait_sus_3.dds"
+	expire = "1999.1.16"
+	ideology = fascism_ideology
+	traits = {
+		nationalist_symbol
+	}
+}
+

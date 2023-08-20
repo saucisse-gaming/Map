@@ -1,0 +1,27 @@
+
+state={
+	id=2283
+	name="STATE_2283" # Corsica
+	manpower = 10229000
+	resources = {
+		steel = 25
+	}
+	
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = CHE
+			victory_points = { 8207 5 }
+			buildings = {
+				infrastructure = 1
+				arms_factory = 1
+			}
+			add_core_of = CHE
+		}
+	}
+
+	provinces={
+		1056 8207 16442 16450 16484 16491 
+	}
+	local_supplies=0.0 
+}

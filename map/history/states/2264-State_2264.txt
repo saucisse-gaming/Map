@@ -1,0 +1,27 @@
+
+state={
+	id=2264
+	name="STATE_2264" # Corsica
+	manpower = 3260000
+	resources = {
+		oil = 25
+	}
+	
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = VNE
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+			}
+			add_core_of = VNE
+		}
+	}
+
+	provinces={
+		16314 16344 16352 16377 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=1800
+	name="STATE_1800"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		7581 7823 8256 14542 14566 14601 
+	}
+	manpower=2756001
+	buildings_max_level_factor=1.000
+	state_category=metropolis
+	local_supplies=0.000
+}

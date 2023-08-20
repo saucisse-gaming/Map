@@ -1,0 +1,629 @@
+focus_tree = {
+	id = FIR
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FIR
+		}
+	}
+	#Focus for renforcer l'armée
+	focus = {
+		id = FIR_renforcer_larme
+		icon = GFX_goal_generic_allies_build_infantry
+		x = 6
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_profiter_de_la_dbacle }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_debacle
+				add_idea = fir_renf_arm
+			}
+			add_manpower = 10000
+			add_war_support = 0.1
+		}
+	}
+	#Focus for Escarmouches
+	focus = {
+		id = FIR_escarmouches
+		icon = GFX_focus_spa_the_war_of_vengeance
+		x = 15
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_continuer_la_perc }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Sérénité et Prospérité
+	focus = {
+		id = FIR_srnit_et_prosprit
+		icon = GFX_goal_generic_national_unity
+		x = 11
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_profiter_de_la_dbacle }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	#Focus for Propagande
+	focus = {
+		id = FIR_propagande
+		icon = GFX_goal_generic_radar
+		x = 17
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_continuer_la_perc }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	#Focus for S'accaparer les voisins
+	focus = {
+		id = FIR_saccaparer_les_voisins
+		icon = GFX_focus_por_recover_brazil
+		x = 14
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_escarmouches }
+		mutually_exclusive = { focus = FIR_ensemble_nous_vraincrons }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal = {
+				type = annex_everything
+				target = VNE
+			}
+		}
+	}
+	#Focus for continuer la percé
+	focus = {
+		id = FIR_continuer_la_perc
+		icon = GFX_goal_generic_political_pressure
+		x = 16
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = FIR_profiter_de_la_dbacle }
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = fir_perce
+		}
+	}
+	#Focus for profiter de la débacle
+	focus = {
+		id = FIR_profiter_de_la_dbacle
+		icon = GFX_goal_generic_position_armies
+		x = 6
+		y = 0
+		cost = 10
+		available_if_capitulated = yes
+		mutually_exclusive = { focus = FIR_continuer_la_perc }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = fir_debacle
+		}
+	}
+	#Focus for le monstre industriel
+	focus = {
+		id = FIR_le_monstre_industriel
+		icon = GFX_goal_generic_construction2
+		x = 1
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_profiter_de_la_dbacle }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}			
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+					add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}
+
+		}
+	}
+	#Focus for Développement militaire
+	focus = {
+		id = FIR_dveloppement_militaire
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 0
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_le_monstre_industriel }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}			
+			}
+		}
+	}
+	#Focus for Développement civil
+	focus = {
+		id = FIR_dveloppement_civil
+		icon = GFX_goal_generic_construct_civ_factory
+		x = 2
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_le_monstre_industriel }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_industrie_sus1
+				add_idea = fir_industrie_sus2
+			}
+		}
+	}
+	#Focus for La légion
+	focus = {
+		id = FIR_la_lgion
+		icon = GFX_focus_usa_honor_the_confederacy
+		x = 4
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_renforcer_larme }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_renf_arm
+				add_idea = fir_legion
+			}
+			add_manpower = 20000
+		}
+	}
+	#Focus for Fortification
+	focus = {
+		id = FIR_fortification
+		icon = GFX_goal_generic_fortify_city
+		x = 6
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_renforcer_larme }
+		mutually_exclusive = { focus = FIR_loffensive_doit_continuer }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			2157 = {
+			add_building_construction = {
+				type = bunker
+				province = 3980
+				level = 3
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				province = 15956
+				level = 3
+				instant_build = yes
+			}
+			}
+		}
+	}
+	#Focus for L'offensive doit continuer
+	focus = {
+		id = FIR_loffensive_doit_continuer
+		icon = GFX_focus_eng_global_defense
+		x = 8
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_renforcer_larme }
+		mutually_exclusive = { focus = FIR_fortification }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for la grande armée
+	focus = {
+		id = FIR_la_grande_arme
+		icon = GFX_focus_spr_the_anti_fascist_workers_revolution
+		x = 15
+		y = 5
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_offensive }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+		}
+	}
+	#Focus for Une nouvelle ère
+	focus = {
+		id = FIR_une_nouvelle_re
+		icon = GFX_focus_fra_french_union
+		x = 19
+		y = 1
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_continuer_la_perc }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	#Focus for Innovation Militaire
+	focus = {
+		id = FIR_innovation_militaire
+		icon = GFX_goal_generic_small_arms
+		x = 20
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_une_nouvelle_re }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = infantry_weapons
+			}
+		}
+	}
+	#Focus for Ensemble nous vraincrons
+	focus = {
+		id = FIR_ensemble_nous_vraincrons
+		icon = GFX_focus_chi_reach_out_to_france
+		x = 16
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_escarmouches }
+		mutually_exclusive = { focus = FIR_saccaparer_les_voisins }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_faction = "L'union Occidentale"
+		}
+	}
+	#Focus for Liberté
+	focus = {
+		id = FIR_libert
+		icon = GFX_goal_support_democracy
+		x = 10
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_srnit_et_prosprit }
+		mutually_exclusive = { focus = FIR_nationalisme }
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	#Focus for Nationalisme
+	focus = {
+		id = FIR_nationalisme
+		icon = GFX_goal_support_fascism
+		x = 12
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_srnit_et_prosprit }
+		mutually_exclusive = { focus = FIR_libert }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_ideas = fir_nationalism
+		}
+	}
+	#Focus for Industries lourdes
+	focus = {
+		id = FIR_industries_lourdes
+		icon = GFX_focus_generic_industry_3
+		x = 18
+		y = 2
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_une_nouvelle_re }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_industrie_sus1
+				add_idea = fir_industrie_sus2
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}
+
+		}
+	}
+	#Focus for Développement civil2
+	focus = {
+		id = FIR_dveloppement_civil2
+		icon = GFX_goal_generic_consumer_goods
+		x = 2
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_dveloppement_civil }
+		search_filters = { FOCUS_FILTER_INDUSTRY } 
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_industrie_sus2
+				add_idea = fir_industrie_sus3
+			}
+		}
+	}
+	#Focus for Agrandissement des complexes industrielles
+	focus = {
+		id = FIR_agrandissement_des_complexes_industrielles
+		icon = GFX_focus_generic_industry_3
+		x = 18
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_industries_lourdes }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_industrie_sus2
+				add_idea = fir_industrie_sus3
+			}
+		}
+	}
+	#Focus for Dernier préparatif
+	focus = {
+		id = FIR_dernier_prparatif
+		icon = GFX_goal_generic_position_armies
+		x = 15
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { 
+			focus = FIR_saccaparer_les_voisins 
+			focus = FIR_ensemble_nous_vraincrons 
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = fir_perce
+				add_idea = fir_perce2
+			}
+		}
+	}
+	#Focus for Offensive
+	focus = {
+		id = FIR_offensive
+		icon = GFX_FIR_gab
+		x = 15
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_dernier_prparatif }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			create_wargoal ={
+				type = annex_everything
+				target = nol
+			}
+			create_wargoal ={
+				type = annex_everything
+				target = che
+			}
+		}
+	}
+	focus = {
+		id = FIR_Industries
+		icon = GFX_focus_generic_industry_3
+		x = 18
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_agrandissement_des_complexes_industrielles }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}			
+			}
+			
+		}
+	}	
+	focus = {
+		id = FIR_Industries_mili
+		icon = GFX_goal_generic_construct_mil_factory
+		x = 20
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_innovation_militaire }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			random_owned_controlled_state = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}			
+			}
+			
+		}
+	}	
+	focus = {
+		id = FIR_chaos_et_desolation
+		icon = GFX_goal_generic_army_artillery2
+		x = 22
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_innovation_militaire }
+		mutually_exclusive = { focus = FIR_vague_humaine }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = artillery
+			}
+			
+		}
+	}	
+	focus = {
+		id = FIR_vague_humaine
+		icon = GFX_focus_generic_manpower
+		x = 24
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_innovation_militaire }
+		mutually_exclusive = { focus = FIR_chaos_et_desolation }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+			
+		}
+	}	
+	focus = {
+		id = FIR_Gros_engin
+		icon = GFX_focus_AST_squander_bug
+		x = 22
+		y = 4
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_chaos_et_desolation }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = train_tech
+			}
+			
+		}
+	}
+	focus = {
+		id = FIR_Aviation
+		icon = GFX_focus_chi_flying_tigers
+		x = 26
+		y = 3
+		cost = 10
+		available_if_capitulated = yes
+		prerequisite = { focus = FIR_innovation_militaire }
+		ai_will_do = {
+			factor = 1
+		}
+		completion_reward = {
+			air_experience = 10
+			
+		}
+	}
+#End of focuses 
+ }

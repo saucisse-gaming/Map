@@ -1,0 +1,20 @@
+
+state = {
+	id=1997
+	name="STATE_1997"
+  manpower = 1721251
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = GAG
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = GAG
+		}
+	}
+  provinces = {
+		3723 6044 9570 15253 15330 
+  }
+}

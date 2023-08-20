@@ -1,0 +1,21 @@
+
+state = {
+	id=1900
+	name="STATE_1900"
+  manpower = 2816501
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = GAG
+			victory_points = { 4128 5 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = GAG
+		}
+	}
+  provinces = {
+		4128 4330 6691 8695 9109 14902 15065 
+  }
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=2226
+	name="STATE_2226" # Corsica
+	manpower = 758000
+	resources = {
+		steel = 7
+		tungsten = 7
+	}
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = FIR
+			victory_points = { 468 5 }
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 1
+			}
+			add_core_of = FIR
+		}
+	}
+
+	provinces={
+		468 1773 2874 9125 9825 16289 16307 
+	}
+	local_supplies=0.0 
+}

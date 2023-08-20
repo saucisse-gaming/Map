@@ -1,0 +1,21 @@
+
+state = {
+	id=2005
+	name="STATE_2005"
+  manpower = 440751
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = COC
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = COC
+			add_claim_by = KEK
+		}
+	}
+  provinces = {
+		4919 5560 6914 8559 15282 15304 15331 
+  }
+}

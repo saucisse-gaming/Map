@@ -1,0 +1,22 @@
+
+state = {
+	id=1963
+	name="STATE_1963"
+  manpower = 675950
+  
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = URS
+			victory_points = { 15194 3 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = URS
+		}
+	}
+
+  provinces = {
+		924 15194 15228 
+  }
+}

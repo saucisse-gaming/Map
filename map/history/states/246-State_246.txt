@@ -1,0 +1,15 @@
+
+state = {
+	id=246
+	name="STATE_246"
+  manpower = 4643251
+  
+  state_category = rural
+  history = {
+    buildings = {
+    }
+  }
+  provinces = {
+		19403 
+  }
+}

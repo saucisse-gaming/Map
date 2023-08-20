@@ -1,0 +1,23 @@
+
+state = {
+	id=364
+	name="STATE_364"
+  manpower = 7112501
+	resources = {
+		steel = 8
+		oil = 5
+	}
+  
+  state_category = megalopolis
+  history = {
+		1936.1.1 = {
+			owner = DIV
+			buildings = {
+			}
+			add_core_of = DIV
+		}
+  }
+  provinces = {
+		19434 
+  }
+}

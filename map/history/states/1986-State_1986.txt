@@ -1,0 +1,22 @@
+
+state={
+	id=1986
+	name="STATE_1986" # Corsica
+	manpower = 1029000
+	
+	state_category = town
+	history={
+		1936.1.1 = {
+			owner = AGB
+			buildings = {
+				infrastructure = 2
+			}
+			add_core_of = AGB
+		}
+	}
+
+	provinces={
+		6157 6365 8698 15241 15285 15286 15339 
+	}
+	local_supplies=0.0 
+}

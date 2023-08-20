@@ -1,0 +1,24 @@
+
+state={
+	id=2124
+	name="STATE_2124" # Corsica
+	manpower = 6719000
+	
+	state_category = large_city
+	history={
+		1936.1.1 = {
+			owner = ATG
+			victory_points = { 8734 15 }
+			buildings = {
+				infrastructure = 3
+				industrial_complex = 2
+			}
+			add_core_of = ATG
+		}
+	}
+
+	provinces={
+		4662 6178 7849 8734 9715 15790 15852 15943 
+	}
+	local_supplies=0.0 
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=2173
+	name="STATE_2173" # Corsica
+	manpower = 8456000
+	resources = {
+		steel = 50
+	}
+	
+	state_category = metropolis
+	history={
+		1936.1.1 = {
+			owner = ATG
+			victory_points = { 16111 35 }
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 4
+				arms_factory = 1
+			}
+			add_core_of = ATG
+		}
+	}
+
+	provinces={
+		3812 8246 8838 10078 16111 16127 16140 
+	}
+	local_supplies=0.0 
+}

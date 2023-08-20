@@ -1,0 +1,7 @@
+spriteTypes = {	##Icon For: semoulisme
+	SpriteType = { 
+		name = "GFX_ideology_semoulisme_icon_group"
+		texturefile = "gfx/interface/ideologies/semoulisme_icon.dds"
+	}
+
+}

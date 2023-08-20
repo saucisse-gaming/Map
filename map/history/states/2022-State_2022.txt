@@ -1,0 +1,21 @@
+
+state = {
+	id=2022
+	name="STATE_2022"
+  manpower = 1230000
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = SUS
+			victory_points = { 15364 5 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = SUS
+		}
+	}
+  provinces = {
+		974 6022 6622 7732 15293 15303 15364 15387 15423 15474 
+  }
+}

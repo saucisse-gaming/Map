@@ -1,0 +1,26 @@
+
+state = {
+	id=191
+	name="STATE_191"
+  manpower = 1351251
+  
+  state_category = large_town
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		victory_points = { 98 5 }
+		buildings = {
+			infrastructure = 2
+			dockyard = 2
+			industrial_complex = 1
+			98 = {
+				naval_base = 2
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		98 
+  }
+}

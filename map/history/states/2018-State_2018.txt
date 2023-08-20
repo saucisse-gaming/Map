@@ -1,0 +1,21 @@
+
+state = {
+	id=2018
+	name="STATE_2018"
+  manpower = 717251
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = MAQ
+			victory_points = { 15489 2 }
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = MAQ
+		}
+	}
+  provinces = {
+		1273 2591 4197 8789 15316 15365 15366 15373 15380 15424 15429 15441 15489 
+  }
+}

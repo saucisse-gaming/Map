@@ -1,0 +1,28 @@
+
+state = {
+	id=197
+	name="STATE_197"
+  manpower = 873751
+  
+  state_category = town
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		victory_points = { 15219 2 }
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			15219 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		15219 
+  }
+  resources = {
+	oil = 5
+	}
+}

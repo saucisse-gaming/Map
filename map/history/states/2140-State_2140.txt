@@ -1,0 +1,22 @@
+
+state={
+	id=2140
+	name="STATE_2140" # Corsica
+	manpower = 532000
+	
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = ATG
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = ATG
+		}
+	}
+
+	provinces={
+		3853 6418 8276 8794 15822 15881 15960 
+	}
+	local_supplies=0.0 
+}

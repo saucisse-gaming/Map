@@ -1,0 +1,31 @@
+
+state={
+	id=321
+	name="STATE_321" # Corsica
+	manpower = 4229000
+	resources = {
+		rubber = 150
+	}
+	
+	state_category = city
+	history={
+		1936.1.1 = {
+			owner = VNE
+			victory_points = { 7749 15 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 2
+				arms_factory = 1
+				7749 ={
+				naval_base = 1
+				}
+			}
+			add_core_of = VNE
+		}
+	}
+
+	provinces={
+		7749 9218 16828 16839 16844 16853 16855 
+	}
+	local_supplies=0.0 
+}

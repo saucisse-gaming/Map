@@ -1,0 +1,26 @@
+
+state = {
+	id=200
+	name="STATE_200"
+  manpower = 3015501
+  
+  state_category = large_city
+  history = {
+	1936.1.1 = {
+		owner = YAP
+		victory_points = { 3956 20 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 5
+			3956 = {
+				naval_base = 5
+			}
+		}
+		add_core_of = YAP
+	}
+  }
+  provinces = {
+		3956 5992 15277 
+  }
+}

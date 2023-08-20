@@ -1,0 +1,32 @@
+﻿capital = 1898
+
+set_research_slots = 2
+set_convoys = 50
+set_stability = 0.53
+
+set_politics = {
+	ruling_party = neutrality
+	last_election = "1936.1.1"
+	election_frequency = 12
+	elections_allowed = yes
+
+}
+set_popularities = {
+	neutrality = 100
+}
+
+
+set_technology = {
+}
+
+
+create_country_leader = {
+	name = "Bango Dongo"
+	desc = "han"
+	picture = "Portrait_bango_dongo.dds"
+	expire = "1999.1.16"
+	ideology = despotism
+	traits = {
+	}
+}
+

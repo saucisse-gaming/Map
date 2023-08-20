@@ -1,0 +1,20 @@
+
+state={
+	id=1862
+	name="STATE_1862"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		2736 6700 7838 14735 14765 14781 14806 14811 14855 14912 
+	}
+	manpower=2900751
+	buildings_max_level_factor=1.000
+	state_category=town
+	local_supplies=0.000
+}

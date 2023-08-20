@@ -1,0 +1,21 @@
+
+state = {
+	id=2098
+	name="STATE_2098"
+  manpower = 7289501
+  
+  state_category = rural
+  history = {
+	1936.1.1 = {
+		owner = KEK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = KEK
+	}
+  }
+  provinces = {
+		178 5537 9130 9308 10026 15665 15696 15712 15745 15774 15784 15824 
+  }
+}

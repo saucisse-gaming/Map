@@ -1,0 +1,15 @@
+
+state = {
+	id=2524
+	name="STATE_2524"
+  manpower = 3115001
+  
+  state_category = pastoral
+  history = {
+    buildings = {
+    }
+  }
+  provinces = {
+		802 1410 2742 4496 5371 9760 17250 17276 17281 17354 
+  }
+}

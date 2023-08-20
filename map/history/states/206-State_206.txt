@@ -1,0 +1,26 @@
+
+state = {
+	id=206
+	name="STATE_206"
+  manpower = 827251
+  
+  state_category = town
+  history = {
+	1936.1.1 = {
+		owner = CHB
+		victory_points = { 15312 5 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			15312 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = CHB
+		add_claim_by = YAP
+	}
+  }
+  provinces = {
+		15312 
+  }
+}

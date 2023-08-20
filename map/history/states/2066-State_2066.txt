@@ -1,0 +1,21 @@
+
+state = {
+	id=2066
+	name="STATE_2066"
+  manpower = 3756501
+  
+  state_category = town
+  history = {
+	1936.1.1 = {
+		owner = KEK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+		}
+		add_core_of = KEK
+	}
+  }
+  provinces = {
+		101 1268 2316 4456 6354 15521 15546 15583 15609 15633 15641 15666 15713 15730 
+  }
+}

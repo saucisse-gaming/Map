@@ -1,0 +1,20 @@
+
+state={
+	id=2021
+	name="STATE_2021"
+
+	history={
+		buildings = {
+
+		}
+
+	}
+
+	provinces={
+		3352 6771 15292 
+	}
+	manpower=7431751
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

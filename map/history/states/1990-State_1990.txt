@@ -1,0 +1,20 @@
+
+state = {
+	id=1990
+	name="STATE_1990"
+  manpower = 811951
+  
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = KAK
+			buildings = {
+				infrastructure = 1
+			}
+			add_core_of = KAK
+		}
+	}
+  provinces = {
+		869 5835 8723 15192 15210 15252 15302 15309 15349 
+  }
+}

@@ -1,0 +1,40 @@
+
+state={
+	id=2146
+	name="STATE_2146"
+	resources={
+		chromium=25.000
+	}
+
+	history={
+		1936.1.1 = {
+			owner = CRA
+			victory_points = {
+				16027 40 
+			}
+			victory_points = {
+				6436 10 
+			}
+			buildings = {
+				infrastructure = 4
+				industrial_complex = 5
+				arms_factory = 2
+				16027 = {
+					naval_base = 1
+	
+				}
+	
+			}
+			add_core_of = CRA
+		}
+
+	}
+
+	provinces={
+		727 4707 5663 5747 6436 8672 15855 15979 15992 15998 16019 16027 
+	}
+	manpower=9829000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+	local_supplies=0.000
+}

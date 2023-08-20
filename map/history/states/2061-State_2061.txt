@@ -1,0 +1,24 @@
+
+state={
+	id=2061
+	name="STATE_2061"
+
+	state_category = rural
+	history={
+		1936.1.1 = {
+			owner = ANT
+			victory_points { 8364 5 }
+			buildings = {
+				infrastructure = 2
+				industrial_complex = 1
+			}
+			add_core_of = ANT
+		}
+	}
+
+
+	provinces={
+		6435 7779 8364 15562 15601 15651 15681 15682 15700 15721 15722 
+	}
+	manpower=732050
+}

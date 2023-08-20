@@ -1,0 +1,21 @@
+
+state = {
+	id=2104
+	name="STATE_2104"
+  manpower = 911751
+  
+  state_category = pastoral
+  history = {
+	1936.1.1 = {
+		owner = ECO
+		buildings = {
+			
+		}
+		add_core_of = ECO
+		add_claim_by = KEK
+	}
+  }
+  provinces = {
+		5605 5971 7709 7935 15660 15706 15732 15754 15759 15812 
+  }
+}
